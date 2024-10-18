@@ -1,1 +1,1 @@
-# Infrastructure as Code Commons
+# Infrastructure as Code (IaC) Commons
