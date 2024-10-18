@@ -6,7 +6,7 @@ resource "kubernetes_role" "environment_role" {
 
   rule {
     api_groups = [""]
-    resources = ["pods", "services", "endpoints"]
+    resources = ["pods", "services", "endpoints", "secrets"]
     verbs = ["get", "list", "watch"]
   }
 
