@@ -1,7 +1,7 @@
-resource "kubernetes_network_policy" "environment_deny_all_external" {
+resource "kubernetes_network_policy" "environment_network_policy" {
   metadata {
-    name      = "deny-all-external"
-    namespace = local.namespace
+    name      = local.network_policy_name
+    namespace = local.namespace_name
   }
 
   spec {

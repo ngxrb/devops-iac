@@ -1,5 +1,5 @@
 resource "kubernetes_namespace" "environment_namespace" {
   metadata {
-    name = local.namespace
+    name = local.namespace_name
   }
 }

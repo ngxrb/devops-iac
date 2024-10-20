@@ -1,14 +1,24 @@
-output "namespace" {
-  description = "Namespace generated."
-  value       = local.namespace
+output "namespace_name" {
+  description = "The environment namespace name."
+  value       = local.namespace_name
 }
 
-output "role" {
-  description = "Role generated."
-  value       = local.role
+output "role_name" {
+  description = "The environment role name."
+  value       = local.role_name
 }
 
-output "service_account" {
-  description = "ServiceAccount generated."
-  value       = local.service_account
+output "role_binding_name" {
+  description = "The environment role binding name."
+  value       = local.role_binding_name
+}
+
+output "service_account_name" {
+  description = "The environment ServiceAccount name."
+  value       = local.service_account_name
+}
+
+output "network_policy_name" {
+  description = "The environment network policy name."
+  value       = local.network_policy_name
 }
