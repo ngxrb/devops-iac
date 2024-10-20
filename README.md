@@ -33,7 +33,7 @@ practices to ensure isolation and security.
 
 - Names of the provisioned namespace, network policies, roles, role bindings, and service accounts.
 
-[Read more about this module here](./kubernetes-environment/README.md)
+[Read more about this module here](./modules/environment/README.md)
 
 ## IaC Commons: Target DevOps Access
 
@@ -58,7 +58,7 @@ namespaces.
 - Names of the network policies for egress and ingress.
 - Role and role binding names for DevOps access to the target namespace.
 
-[Read more about this module here](./target-devops-access/README.md)
+[Read more about this module here](./modules/target_devops_access/README.md)
 
 ## IaC Commons: Shared
 
@@ -84,7 +84,7 @@ across infrastructure resources.
 
 - Returns the regex patterns for hostname, Kubernetes names, file paths, and version validation.
 
-[Read more about this module here](./shared-regex/README.md)
+[Read more about this module here](./modules/shared/README.md)
 
 ## Best Practices
 
